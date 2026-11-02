@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="blackcore-16.png">data/icons/blackcore-16.png</file>
+    <file alias="blackcore-24.png">data/icons/blackcore-24.png</file>
+    <file alias="blackcore-32.png">data/icons/blackcore-32.png</file>
+    <file alias="blackcore-48.png">data/icons/blackcore-48.png</file>
+    <file alias="blackcore-64.png">data/icons/blackcore-64.png</file>
+    <file alias="blackcore-128.png">data/icons/blackcore-128.png</file>
+    <file alias="blackcore-256.png">data/icons/blackcore-256.png</file>
+    <file alias="blackcore-512.png">data/icons/blackcore-512.png</file>
+  </qresource>
+  <qresource prefix="/ui-icons">
+    <file alias="new-tab.svg">data/icons/ui/new-tab.svg</file>
+    <file alias="copy.svg">data/icons/ui/copy.svg</file>
+    <file alias="paste.svg">data/icons/ui/paste.svg</file>
+    <file alias="execute.svg">data/icons/ui/execute.svg</file>
+    <file alias="clear.svg">data/icons/ui/clear.svg</file>
+    <file alias="settings.svg">data/icons/ui/settings.svg</file>
+    <file alias="panel-left.svg">data/icons/ui/panel-left.svg</file>
+    <file alias="minimize.svg">data/icons/ui/minimize.svg</file>
+    <file alias="maximize.svg">data/icons/ui/maximize.svg</file>
+    <file alias="restore.svg">data/icons/ui/restore.svg</file>
+    <file alias="close.svg">data/icons/ui/close.svg</file>
+  </qresource>
+</RCC>

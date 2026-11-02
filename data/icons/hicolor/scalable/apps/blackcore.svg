@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="BlackCore Terminal Core logo">
+<defs>
+ <linearGradient id="gold" x1="0" y1="0" x2=".9" y2="1" gradientUnits="objectBoundingBox"><stop stop-color="#7f4300"/><stop offset=".18" stop-color="#fff1a1"/><stop offset=".42" stop-color="#e8a800"/><stop offset=".75" stop-color="#a25c00"/><stop offset="1" stop-color="#ffde66"/></linearGradient>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0065ff"/><stop offset=".5" stop-color="#05e3ff"/><stop offset="1" stop-color="#0077ff"/></linearGradient>
+ <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".5" stop-color="#bfcbd7"/><stop offset="1" stop-color="#e9eef5"/></linearGradient>
+ <radialGradient id="dark" cx=".65" cy=".3" r=".85"><stop stop-color="#102438"/><stop offset=".52" stop-color="#090b11"/><stop offset="1" stop-color="#020306"/></radialGradient>
+ <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="13"/></filter>
+ <filter id="smallGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="6"/></filter>
+ <clipPath id="mask"><rect x="95" y="96" width="834" height="832" rx="170"/></clipPath>
+</defs>
+<!-- Transparent outside the app emblem -->
+<rect x="97" y="98" width="830" height="828" rx="174" fill="url(#dark)" stroke="#372006" stroke-width="8"/>
+<rect x="108" y="109" width="808" height="806" rx="165" fill="none" stroke="url(#gold)" stroke-width="17"/>
+<rect x="125" y="126" width="774" height="772" rx="151" fill="none" stroke="#704807" stroke-width="3"/>
+<g clip-path="url(#mask)">
+<!-- Outer orbital glow and electric-blue sweep -->
+<path d="M194 478 C45 582 108 679 345 661 C569 647 830 544 891 452 C923 404 890 378 839 392" fill="none" stroke="#087eff" stroke-width="35" opacity=".6" filter="url(#glow)"/>
+<path d="M194 478 C45 582 108 679 345 661 C569 647 830 544 891 452 C923 404 890 378 839 392" fill="none" stroke="url(#blue)" stroke-width="11" stroke-linecap="round"/>
+<path d="M190 481 C72 583 134 652 347 642 C570 631 817 540 871 452" fill="none" stroke="#c6ffff" stroke-width="3" opacity=".8"/>
+<!-- Terminal window -->
+<rect x="232" y="220" width="584" height="401" rx="63" fill="#040609" fill-opacity=".95" stroke="#077bdf" stroke-width="9"/>
+<path d="M234 534 V280 Q234 220 297 220 H744" fill="none" stroke="url(#gold)" stroke-width="13" stroke-linecap="round"/>
+<path d="M740 220 H754 Q814 220 814 281 V550" fill="none" stroke="#08cbff" stroke-width="12" filter="url(#smallGlow)"/>
+<path d="M740 220 H754 Q814 220 814 281 V550" fill="none" stroke="#05d6ff" stroke-width="5"/>
+<path d="M240 330 H810" stroke="#566b7c" stroke-width="4"/>
+<circle cx="313" cy="281" r="18" fill="url(#gold)"/><circle cx="374" cy="281" r="18" fill="url(#gold)"/><circle cx="436" cy="281" r="18" fill="url(#gold)"/>
+<g stroke="#b25d00" stroke-width="5" stroke-linejoin="round" fill="url(#gold)">
+ <path d="M361 377 L491 452 L361 531 L361 491 L432 451 L361 413 Z"/>
+ <rect x="496" y="513" width="130" height="34" rx="2"/>
+</g>
+</g>
+<!-- Brand name / vector-ish typography rendered by SVG text -->
+<text x="512" y="785" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-weight="bold" font-size="86" letter-spacing="-5" fill="url(#steel)">Black<tspan fill="url(#gold)">Core</tspan></text>
+<path d="M273 832 Q512 821 746 832" fill="none" stroke="#00b9ff" stroke-width="12" opacity=".6" filter="url(#glow)"/>
+<path d="M273 832 Q512 821 746 832" fill="none" stroke="url(#blue)" stroke-width="4" opacity=".8"/>
+</svg>

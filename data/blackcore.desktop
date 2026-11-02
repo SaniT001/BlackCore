@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=BlackCore
+GenericName=Terminal Emulator
+GenericName[ru]=Эмулятор терминала
+Comment=Terminal emulator for Linux Mint
+Comment[ru]=Терминал для Linux Mint
+Exec=blackcore %F
+TryExec=blackcore
+Icon=blackcore
+Terminal=false
+Categories=System;TerminalEmulator;
+Keywords=terminal;console;shell;bash;cmd;терминал;консоль;оболочка;
+StartupNotify=true
+StartupWMClass=blackcore
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Name[ru]=Новое окно
+Exec=blackcore
